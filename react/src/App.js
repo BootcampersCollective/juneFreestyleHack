@@ -56,10 +56,6 @@ class App extends Component {
 					</Switch>
 				</Router>
 
-				{/* <div>
-					<Button onClick = {(e) => changeView(e, "/Services")}>Tour</Button>
-				</div> */}
-
 				</main>
       </div>
     );

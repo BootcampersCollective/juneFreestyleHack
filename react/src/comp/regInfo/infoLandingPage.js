@@ -1,8 +1,9 @@
-import React, {Component} from 'react'; 
+
+import React, {Component} from 'react';
 
 class InfoLandingPage extends Component {
 	constructor(props) {
-		super(props); 
+		super(props);
 		this.state = {
 
 		}
@@ -14,13 +15,13 @@ class InfoLandingPage extends Component {
 		return (
 			<div id="title">
 				<h1>Bootcampers Collective</h1>
-					<button id="singleReg">Single Registration</button> 
-					<button id="teamReg">Team Registration</button> 
-			</div> 
+					<button id="singleReg">Single Registration</button>
+					<button id="teamReg">Team Registration</button>
+			</div>
 
 
 			)
 	}
 }
 
-export default InfoLandingPage; 
+export default InfoLandingPage;
