@@ -1,20 +1,44 @@
 import React from 'react'
 
-const SingleReg = () => {
+class SingleReg extends React.Component {
 
-	return(
-		<div>
-			<form>
+	constructor(props) {
+		super(props)
+		this.state = {
+			profileInfo: {}
+		}
+	}
 
-				<input type="text" placeholder="First Name"/>
-				<input type="text" placeholder="Last Name"/>
-				<input type="text" placeholder="City in Colorado"/>
-				<textarea placeholder="Goals"/>
-				
+	fillInfo(info, key) {
+		const profileInfo = this.state.profileInfo
+		profileInfo[key] = info
 
-			</form>
-		</div>
-	)
+		this.setState({
+			profileInfo: profileInfo
+		})
+
+		console.log(this.state);
+	}
+
+	render () {
+		return(
+			<div>
+				<form>
+				<div id="generalInfo">
+					<input type="text" placeholder="First and Last" onChange={(e) => this.fillInfo(e.target.value, "name")}/>
+					<input type="text" placeholder="City in Colorado" onChange={(e) => this.fillInfo(e.target.value, "location")}/>
+				</div>
+
+				<div id="deepInfo">
+					<textarea placeholder="Goals" onChange={(e) => this.fillInfo(e.target.value, "goals")}/>
+
+				</div>
+
+				</form>
+
+			</div>
+		)
+	}
 }
 
 
