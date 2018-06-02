@@ -47,13 +47,6 @@ section:not(.hero):nth-child(even) {
 	background-color: #f5f5f5;
 }
 
-section h3.title {
-	text-transform: capitalize;
-	font: bold 32px "Open Sans", sans-serif;
-	margin-bottom: 30px;
-	text-align: center;
-}
-
 @media (max-width: 800px) {
 	section {
 		padding: 50px 20px;
