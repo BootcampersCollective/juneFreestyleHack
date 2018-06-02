@@ -1,5 +1,6 @@
-import React, { Component } from 'react'; 
+// import React, { Component } from 'react'; 
 
+<<<<<<< HEAD
 class TeamReg extends Component {
 	constructor(props) {
 		super(props);
@@ -36,3 +37,17 @@ class TeamReg extends Component {
 }
 
 export default TeamReg; 
+=======
+// class TeamReg extends Component {
+// 	constructor(props) {
+// 		super(props); 
+
+// 	}
+
+// 	render(){
+// 		return (
+
+// 			)
+// 	}
+// }
+>>>>>>> ca6dcab1775e963316bdf34ffa31db48657628cd
