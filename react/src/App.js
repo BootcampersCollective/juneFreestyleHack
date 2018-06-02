@@ -5,9 +5,9 @@ import createHistory from 'history/createBrowserHistory'
 import logo from './logo.svg';
 import './App.css';
 import Home from './comp/Home'
-import singleReg from './comp/regInfo/singleReg'
-import teamReg from './comp/regInfo/teamReg'
-import infoLandingPage from './comp/regInfo/infoLandingPage'
+import SingleReg from './comp/regInfo/SingleReg'
+import TeamReg from './comp/regInfo/TeamReg'
+import InfoLandingPage from './comp/regInfo/InfoLandingPage'
 
 
 const history = createHistory()
@@ -42,23 +42,19 @@ class App extends Component {
 						<Route exact path="/" render= {() => <Home
 							history={history}/>}/>
 
-						<Route path="/infoLandingPage" render= {() => <infoLandingPage
+						<Route path="/InfoLandingPage" render= {() => <InfoLandingPage
 							history={history}/>} />
 
-						<Route path="/singleReg" render= {() => <singleReg
+						<Route path="/SingleReg" render= {() => <SingleReg
 							history={history}/>} />
 
-						<Route path="/teamReg" render= {() => <teamReg
+						<Route path="/TeamReg" render= {() => <TeamReg
 							history={history}/>} />
 
 
 						<Route path="*" component={ErrorPage} />
 					</Switch>
 				</Router>
-
-				<div>
-					<Button onClick = {(e) => changeView(e, "/Services")}>Tour</Button>
-				</div>
 
 				</main>
       </div>
