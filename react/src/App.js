@@ -20,7 +20,6 @@ const ErrorPage = () => (
   <h1>404.. This page is not found!</h1>)
 
 class App extends Component {
-
 	constructor(props) {
 		super(props)
 		this.state = {
@@ -31,28 +30,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
 				<main>
-
-				<Router history={history}>
-					<Switch>
-
-						<Route exact path="/" render= {() => <Home
-							history={history}/>}/>
-            <Route exact path="/Dashboard" render= {() => <Dashboard 
-              history={history}/>}/>
-
-						<Route path="/Services" render= {() => <Services
-							history={history}/>} />
-
+				  <Router history={history}>
+					  <Switch>
+						  <Route exact path="/" render= {() => <Home
+							  history={history}/>}/>
+              <Route exact path="/Dashboard" render= {() =>   <Dashboard 
+               history={history}/>}/>
+						  <Route path="/Services" render= {() => <Services
+							  history={history}/>} />
 						<Route path="*" component={ErrorPage} />
 					</Switch>
 				</Router>
-
-				<div>
-					<Button onClick = {(e) => changeView(e, "/Services")}>Tour</Button>
-				</div>
-
 				</main>
       </div>
     );

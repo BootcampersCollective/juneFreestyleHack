@@ -1,12 +1,10 @@
 .team-aside-div {
-  height: 50%;
   border: 2px solid #a9a9a9;
   float: left;
   margin-left: 5%;
   padding-left: 2%;
   padding-right: 2%;
   background-color: rgba(239,239,239, 0.8);
-  /* color: #5DC1BD; */
 }
 
 h2 {
