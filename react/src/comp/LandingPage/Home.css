@@ -122,8 +122,8 @@ header nav li {
 	background-color: red;
 }
 
-.hero h3 {
-	font: normal 28px "Open Sans", sans-serif;
+.hero h1 {
+	font: normal 44px "Open Sans", sans-serif;
 	padding-top: 40px;
 }
 
@@ -131,6 +131,15 @@ header nav li {
 	opacity: 0;
 	margin-top: 100px;
 	animation: 1s slidefade 1s forwards;
+}
+
+#bootcampersLogo {
+	height: 300px;
+	width: 300px;
+}
+
+.logoText {
+	font-size: 100px;
 }
 
 @keyframes slidefade {

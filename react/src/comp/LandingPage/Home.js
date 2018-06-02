@@ -19,8 +19,8 @@ const Home = () => {
 					<section class="hero">
 						<div class="background-image"></div>
 						<div class="hero-content-area">
-							<img src={logo} alt="Bootcampers Collective" />
-							<h3>Hack-A-Thon</h3>
+							<img src={logo} alt="Bootcampers Collective" id="bootcampersLogo"/>
+							<h1>Hack-A-Thon</h1>
 							{/* <a href="#" class="btn">Contact Us Now</a> */}
 						</div>
 					</section>
