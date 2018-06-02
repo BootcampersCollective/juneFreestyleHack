@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import { Router, Route, Switch } from 'react-router-dom'
 import { Button } from 'react-materialize'
 import createHistory from 'history/createBrowserHistory'
-import logo from './logo.svg';
 import './App.css';
-import Home from './comp/Home'
+import Home from './comp/LandingPage/Home'
 import Services from './comp/Services'
 
 const history = createHistory()
@@ -46,9 +45,9 @@ class App extends Component {
 					</Switch>
 				</Router>
 
-				<div>
+				{/* <div>
 					<Button onClick = {(e) => changeView(e, "/Services")}>Tour</Button>
-				</div>
+				</div> */}
 
 				</main>
       </div>
