@@ -47,32 +47,9 @@ section:not(.hero):nth-child(even) {
 	background-color: #f5f5f5;
 }
 
-.grid {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-hr {
-	width: 250px;
-	height: 3px;
-	background-color: #3f51b5;
-	border: 0;
-	margin-bottom: 50px;
-}
-
 section h3.title {
 	text-transform: capitalize;
 	font: bold 32px "Open Sans", sans-serif;
-	margin-bottom: 30px;
-	text-align: center;
-}
-
-section p {
-	max-width: 775px;
-	line-height: 2;
-	padding: 0 20px;
 	margin-bottom: 30px;
 	text-align: center;
 }
@@ -157,10 +134,6 @@ header nav li {
 	padding-top: 40px;
 }
 
-.hero a.btn {
-	padding: 20px 46px;
-}
-
 .hero-content-area {
 	opacity: 0;
 	margin-top: 100px;
@@ -194,14 +167,5 @@ header nav li {
 
 	.hero h3 {
 		font-size: 24px;
-	}
-
-	.hero a.btn {
-		padding: 15px 40px;
-	}
-
-	#bootcampersLogo {
-		height: 200px;
-		width: 200px;
 	}
 }
