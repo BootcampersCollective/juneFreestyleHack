@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Router, Route, Switch } from 'react-router-dom'
 import { Button } from 'react-materialize'
 import createHistory from 'history/createBrowserHistory'
-import logo from './logo.svg';
 import './App.css';
-import Home from './comp/Home'
+import Home from './comp/LandingPage/Home'
+import Services from './comp/Services'
 import SingleReg from './comp/regInfo/SingleReg'
 import TeamReg from './comp/regInfo/TeamReg'
 import InfoLandingPage from './comp/regInfo/InfoLandingPage'
