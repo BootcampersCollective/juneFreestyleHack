@@ -4,10 +4,6 @@ import React, {Component} from 'react';
 class InfoLandingPage extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-
-		}
-
 
 	}
 
@@ -15,8 +11,9 @@ class InfoLandingPage extends Component {
 		return (
 			<div id="title">
 				<h1>Bootcampers Collective</h1>
-					<button id="singleReg">Single Registration</button>
-					<button id="teamReg">Team Registration</button>
+					<a href="/SingleReg">Single Registration</a> 
+						
+					<a href="/TeamReg">Team Registration</a>
 			</div>
 
 
