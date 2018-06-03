@@ -5,6 +5,7 @@ import createHistory from 'history/createBrowserHistory'
 import logo from './logo.svg';
 import './App.css';
 import Home from './comp/Home'
+import Dashboard from './comp/Dashboard';
 import Services from './comp/Services'
 
 const history = createHistory()
@@ -38,6 +39,8 @@ class App extends Component {
 
 						<Route exact path="/" render= {() => <Home
 							history={history}/>}/>
+            <Route exact path="/Dashboard" render= {() => <Dashboard 
+              history={history}/>}/>
 
 						<Route path="/Services" render= {() => <Services
 							history={history}/>} />
