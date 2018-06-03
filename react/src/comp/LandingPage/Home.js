@@ -36,7 +36,6 @@ class Home extends Component {
 			return (
 				<div>
 					<header>
-						<h2>Bootcampers Collective</h2>
 						<nav>
 							<li><a href="#" data-toggle="modal" data-target="#loginModal">Log-in</a></li>
 							<li><a href="#" data-toggle="modal" data-target="#signupModal">Sign-up</a></li>
@@ -50,6 +49,14 @@ class Home extends Component {
 								<div class="hero-content-area">
 									<img src={logo} alt="Bootcampers Collective" id="bootcampersLogo" />
 									<h1>Hack-A-Thon</h1>
+									<br/>
+									<br/>
+									<br/>
+									<br/>
+									<br/>
+									<br/>
+									<br/>
+									<br/>
 									{/* <a href="#" class="btn">Contact Us Now</a> */}
 								</div>
 							</section>

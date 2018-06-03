@@ -4,6 +4,7 @@ import { Button } from 'react-materialize'
 import createHistory from 'history/createBrowserHistory'
 import './App.css';
 import Home from './comp/LandingPage/Home'
+import Dashboard from './comp/Dashboard';
 import Services from './comp/Services'
 import SingleReg from './comp/regInfo/singleReg'
 import TeamReg from './comp/regInfo/teamReg'
@@ -42,6 +43,8 @@ class App extends Component {
 
 						<Route exact path="/" render= {() => <Home
 							history={history}/>}/>
+            <Route exact path="/Dashboard" render= {() => <Dashboard 
+              history={history}/>}/>
 
 						<Route path="/InfoLandingPage" render= {() => <InfoLandingPage
 							history={history}/>} />
@@ -52,8 +55,8 @@ class App extends Component {
 						<Route path="/TeamReg" render= {() => <TeamReg
 							history={history}/>} />
 
-
-						<Route path="*" component={ErrorPage} />
+						<Route path="*" render= {() => <Home
+							history={history}/>}/>
 					</Switch>
 				</Router>
 
