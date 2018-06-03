@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // make our database connection
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost/wan2date", function(errorTime) {
+mongoose.connect("mongodb://localhost/hackathon", function(errorTime) {
   errorTime
     ? console.log("NO CONNECTION TO DB")
     : console.log("CONNECTED TO DATABASE");
