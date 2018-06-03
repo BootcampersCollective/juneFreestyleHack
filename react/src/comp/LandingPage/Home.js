@@ -7,15 +7,15 @@ const Home = () => {
 	return (
 		<div>
 			<header>
-				<h2><a href="#">Bootcampers Collective</a></h2>
+				<h2>Bootcampers Collective</h2>
 				<nav>
 					<li><a href="#">Log-in</a></li>
 					<li><a href="#">Sign-up</a></li>
 					<li><a href="#">Contact</a></li>
 				</nav>
 			</header>
-			<div class="row" id="row2">
-				<div class="col-sm" id="landingbody">
+			<div>
+				<div>
 					<section class="hero">
 						<div class="background-image"></div>
 						<div class="hero-content-area">
