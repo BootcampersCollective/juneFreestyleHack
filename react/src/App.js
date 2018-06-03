@@ -5,9 +5,10 @@ import createHistory from 'history/createBrowserHistory'
 import './App.css';
 import Home from './comp/LandingPage/Home'
 import Services from './comp/Services'
-import SingleReg from './comp/regInfo/SingleReg'
-import TeamReg from './comp/regInfo/TeamReg'
-import InfoLandingPage from './comp/regInfo/InfoLandingPage'
+import SingleReg from './comp/regInfo/singleReg'
+import TeamReg from './comp/regInfo/teamReg'
+import InfoLandingPage from './comp/regInfo/infoLandingPage';
+
 
 
 const history = createHistory()
