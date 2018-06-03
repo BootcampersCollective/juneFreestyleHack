@@ -1,0 +1,33 @@
+.team-aside-div {
+  border: 2px solid #a9a9a9;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: rgba(239,239,239, 0.8);
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.team-p {
+  margin: 0;
+}
+
+.team-member {
+  text-align: left;
+  padding-top: 2%;
+}
+
+.add-team-member-btn {
+  text-align: center;
+  margin-bottom: 7%;
+  padding: 2%;
+  background-color: #5DC1BD;
+  border: 1px solid #5DC1BD;;
+}
+
+.add-team-member-btn:hover {
+  background-color: #caebf2;
+}
